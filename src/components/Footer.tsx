@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-red-500" />
-                <span className="text-gray-400">João Pessoa, PB</span>
+                <span className="text-gray-400">Itaporanga, PB</span>
               </li>
             </ul>
           </div>

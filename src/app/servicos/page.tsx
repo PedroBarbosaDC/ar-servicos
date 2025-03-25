@@ -48,7 +48,7 @@ const services = [
     title: 'Monitoramento de Particulados',
     description: 'Medição e análise da qualidade do ar em tempo real com equipamentos de última geração.',
     features: [
-      'Medição de qualidade do ar em tempo real (MP 2.5 e MP 10) – on-line',
+      'Medição de Partículas Inaláveis(PM10) e Partículas Inaláveis Finas(PM2,5) – on-line',
       'Modelagem e análise de dispersão de poluentes',
     ],
   },
@@ -106,7 +106,7 @@ export default function Services() {
                       href="/contato"
                       className="btn btn-primary w-full text-center"
                     >
-                      Solicitar Orçamento
+                      Fale Conosco
                     </Link>
                   )}
                 </div>

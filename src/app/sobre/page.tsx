@@ -15,7 +15,7 @@ export default function About() {
                 Nossa jornada começou dentro de um aterro sanitário, onde identificamos uma necessidade urgente: monitoramento ambiental eficiente e preciso para garantir a sustentabilidade e conformidade com a legislação.
               </p>
               <p className="mb-6">
-                A empresa nasceu dentro do próprio terreno, como um projeto incubado para desenvolver tecnologias e metodologias inovadoras de monitoramento para desenvolver tecnologias e metodologias inovadoras de monitoramento ambiental. No início, nossa equipe foi formada por engenheiros e especialistas que trabalharam diretamente no local, coletando dados, analisando amostras e desenvolvendo sistemas para melhoria do controle ambiental da área.
+                A empresa nasceu dentro do próprio terreno, como um projeto incubado para desenvolver tecnologias e metodologias inovadoras de monitoramento ambiental. No início, nossa equipe foi formada por engenheiros e especialistas que trabalharam diretamente no local, coletando dados, analisando amostras e desenvolvendo sistemas para melhoria do controle ambiental da área.
               </p>
               <h2 className="text-2xl font-bold mt-8 mb-4">Do Campo para o Mercado</h2>
               <p className="mb-6">
