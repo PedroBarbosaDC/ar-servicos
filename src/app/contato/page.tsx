@@ -104,7 +104,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Endereço</h3>
                     <p className="text-gray-600">
-                      João Pessoa, Paraíba
+                      Itaporanga, Paraíba
                     </p>
                   </div>
                 </div>

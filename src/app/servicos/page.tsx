@@ -13,7 +13,7 @@ const services = [
       'Geotécnico (sensores de inclinação) – on-line',
       'Emissões Furtivas (metano CH4) – Drone',
       'Águas subterrâneas e superficiais',
-      'Monitoramento de particulados (MP 2,5 e MP 10) – on-line',
+      'Medição de Partículas Inaláveis(MP10) e Partículas Inaláveis Finas(MP2,5) – on-line',
       'Relatórios para órgãos reguladores',
     ],
   },
@@ -48,7 +48,7 @@ const services = [
     title: 'Monitoramento de Particulados',
     description: 'Medição e análise da qualidade do ar em tempo real com equipamentos de última geração.',
     features: [
-      'Medição da qualidade do ar em tempo real (MP 2.5 e MP 10) – on-line',
+      'Medição de qualidade do ar em tempo real (MP 2.5 e MP 10) – on-line',
       'Modelagem e análise de dispersão de poluentes',
     ],
   },
@@ -101,12 +101,14 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-                  <Link
-                    href="/contato"
-                    className="btn btn-primary w-full text-center"
-                  >
-                    Solicitar Orçamento
-                  </Link>
+                  {service.title !== 'Monitoramento de PRAD' && (
+                    <Link
+                      href="/contato"
+                      className="btn btn-primary w-full text-center"
+                    >
+                      Solicitar Orçamento
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}

@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2 mb-4">
               <Logo className="w-24 h-24" />
-              <span className="text-2xl font-bold">AR Serviços</span>
+              <span className="text-2xl font-bold">AR Serviços Ambientais</span>
             </div>
             <p className="text-gray-400 text-center md:text-left">
               Soluções ambientais completas e profissionais para sua empresa.
