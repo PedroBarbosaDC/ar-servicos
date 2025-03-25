@@ -101,14 +101,6 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-                  {service.title !== 'Monitoramento de PRAD' && (
-                    <Link
-                      href="/contato"
-                      className="btn btn-primary w-full text-center"
-                    >
-                      Fale Conosco
-                    </Link>
-                  )}
                 </div>
               </div>
             ))}
