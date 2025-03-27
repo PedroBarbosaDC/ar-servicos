@@ -13,7 +13,7 @@ const partners = [
   },
   {
     name: 'Nome do Parceiro 3',
-    logo: '/images/parceiros/logo3.png',
+    logo: '/images/parceiros/logo3.jpg',
     website: 'https://parceiro3.com'
   },
   {
