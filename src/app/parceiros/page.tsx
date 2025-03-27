@@ -1,3 +1,28 @@
+import Image from 'next/image'
+
+const partners = [
+  {
+    name: 'Ar Serviços Ambientais',
+    logo: '/images/parceiros/logo1.jpg',
+    website: 'https://parceiro1.com'
+  },
+  {
+    name: 'Nome do Parceiro 2',
+    logo: '/images/parceiros/logo2.png',
+    website: 'https://parceiro2.com'
+  },
+  {
+    name: 'Nome do Parceiro 3',
+    logo: '/images/parceiros/logo3.png',
+    website: 'https://parceiro3.com'
+  },
+  {
+    name: 'Nome do Parceiro 4',
+    logo: '/images/parceiros/logo4.png',
+    website: 'https://parceiro4.com'
+  },
+]
+
 export default function Partners() {
   return (
     <main className="pt-20">
@@ -17,27 +42,24 @@ export default function Partners() {
       <section className="py-20">
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {/* Add partner logos here */}
-            <div className="bg-white p-8 rounded-lg shadow-lg flex items-center justify-center">
-              <div className="text-gray-400 text-center">
-                <p>Logo do Parceiro 1</p>
-              </div>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg flex items-center justify-center">
-              <div className="text-gray-400 text-center">
-                <p>Logo do Parceiro 2</p>
-              </div>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg flex items-center justify-center">
-              <div className="text-gray-400 text-center">
-                <p>Logo do Parceiro 3</p>
-              </div>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg flex items-center justify-center">
-              <div className="text-gray-400 text-center">
-                <p>Logo do Parceiro 4</p>
-              </div>
-            </div>
+            {partners.map((partner, index) => (
+              <a
+                key={index}
+                href={partner.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
+              >
+                <div className="relative w-full h-32">
+                  <Image
+                    src={partner.logo}
+                    alt={`Logo ${partner.name}`}
+                    fill
+                    style={{ objectFit: 'contain' }}
+                  />
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
