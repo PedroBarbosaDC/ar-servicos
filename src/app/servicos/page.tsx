@@ -8,11 +8,11 @@ const services = [
     features: [
       'Permeabilidade da camada de cobertura',
       'Densidade camada cobertura – in situ',
-      'Controle de gases (metano CH4)\nOn-line',
+      'Controle de gases (metano CH₄)\nOn-line',
       'Líquidos percolados (chorume)\nOn-line',
       'Geotécnico (sensores de inclinação)\nOn-line',
       'Águas subterrâneas e superficiais',
-      'Medição de Partículas Inaláveis(MP10) e Partículas Inaláveis Finas(MP2,5)\nOn-line',
+      'Medição de Partículas Inaláveis(PM₁₀) e Partículas Inaláveis Finas(PM₂․₅)\nOn-line',
       'Relatórios para órgãos reguladores',
     ],
   },
@@ -29,8 +29,8 @@ const services = [
     description: 'Plano de Recuperação de Áreas Degradadas com monitoramento contínuo e relatórios técnicos.',
     features: [
       'Mapeamento por satélite e drones',
-      'Emissões Furtivas (metano CH4)\nDrone',
-      'Emissões Furtivas (metano CH4)\nOn-line',
+      'Emissões Furtivas (metano CH₄)\nDrone',
+      'Emissões Furtivas (metano CH₄)\nOn-line',
       'Laudos técnicos para órgãos ambientais',
     ],
   },
@@ -47,7 +47,7 @@ const services = [
     title: 'Monitoramento de Particulados',
     description: 'Medição e análise da qualidade do ar em tempo real com equipamentos de última geração.',
     features: [
-      'Medição de Partículas Inaláveis(PM10) e Partículas Inaláveis Finas(PM2,5)\nOn-line',
+      'Medição de Partículas Inaláveis(PM₁₀) e Partículas Inaláveis Finas(PM₂․₅)\nOn-line',
       'Modelagem e análise de dispersão de poluentes',
     ],
   },
