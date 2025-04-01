@@ -11,25 +11,25 @@ export default function About() {
           </h1>
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg">
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 Nossa jornada começou dentro de um aterro sanitário, onde identificamos uma necessidade urgente: monitoramento ambiental eficiente e preciso para garantir a sustentabilidade e conformidade com a legislação.
               </p>
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 A empresa nasceu dentro do próprio terreno, como um projeto incubado para desenvolver tecnologias e metodologias inovadoras de monitoramento ambiental. No início, nossa equipe foi formada por engenheiros e especialistas que trabalharam diretamente no local, coletando dados, analisando amostras e desenvolvendo sistemas para melhoria do controle ambiental da área.
               </p>
               <h2 className="text-2xl font-bold mt-8 mb-4">Do Campo para o Mercado</h2>
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 Com o tempo, percebemos que os desafios enfrentados no aterro sanitário eram comuns a diversos setores, como prefeituras, áreas de preservação e emissores de poluentes atmosféricos. Foi então que expandimos nossos serviços, aplicando a expertise adquirida no aterro sanitário para monitoramento de reservas legais, Prads, georreferenciamento, controle de particulados e modelagem de dispersão de contaminantes no ar.
               </p>
               <h2 className="text-2xl font-bold mt-8 mb-4">Crescimento e Inovação</h2>
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 Com o uso de tecnologias avançadas, como drones, sensores ambientais, softwares de modelagem e sistemas de georreferenciamento, nos tornamos referência no setor, soluções ambientais precisas e confiáveis.
               </p>
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 Nosso compromisso com a inovação e a sustentabilidade impulsionou parcerias estratégicas com empresas privadas e centros de pesquisa, consolidando nossa posição como uma das principais empresas de monitoramento ambiental no mercado.
               </p>
               <h2 className="text-2xl font-bold mt-8 mb-4">O Futuro</h2>
-              <p className="mb-6">
+              <p className="mb-6 text-justify">
                 Hoje, seguimos expandindo nossas soluções e aprimorando nossas metodologias, sempre com o compromisso de garantir que empreendimentos e atividades humanas coexistam em equilíbrio com o meio ambiente. Nossa missão continua sendo oferecer monitoramento ambiental de alta qualidade, ajudando empresas e gestores a tomarem decisões baseadas em dados específicos para um futuro mais sustentável.
               </p>
             </div>
